@@ -36,6 +36,8 @@ void insert_sort(int *array)
 					for(k=i-2; k>j-1; k--){
 						array[k+1] = array[k];
 					}
+					array[i-2] =temp;
+					break;
 				}
 			}
 		}
